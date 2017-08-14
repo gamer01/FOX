@@ -23,3 +23,6 @@
 /data/maui/*
 /data/boa/*/
 /src/main/resources/public/demo/doc/*
+/docker/en/agdistis/*
+/docker/en/spotlight/*
+/out/*

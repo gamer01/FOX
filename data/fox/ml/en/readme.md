@@ -8,4 +8,6 @@ weka.classifiers.functions.MultilayerPerceptron_4 trained with stanford, illinoi
 
 weka.classifiers.functions.MultilayerPerceptron_noSpotlight  trained with all except spotlight
 
+weka.classifiers.functions.MultilayerPerceptronBengal  stanford, illinois, spotlight on bengal data
+
 
