@@ -15,7 +15,7 @@ RUN mkdir -p /usr/bin/FOX
 WORKDIR /usr/bin/FOX
 
 # environment setup
-ENV MAVEN_OPTS "-Xmx20G -Dlog4j.configuration=file:/usr/bin/FOX/data/fox/log4j.properties -Dmaven.repo.local=/usr/bin/FOX/m2repository"
+ENV MAVEN_OPTS "-Xmx6G -Dlog4j.configuration=file:/usr/bin/FOX/data/fox/log4j.properties -Dmaven.repo.local=/usr/bin/FOX/m2repository"
 
 ENV DEBIAN_FRONTEND noninteractive
 

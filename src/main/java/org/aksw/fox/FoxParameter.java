@@ -167,6 +167,7 @@ public class FoxParameter {
     EN("en"), //
     NL("nl"), //
     FR("fr");
+    PT("pt");
 
     private final String label;
 
