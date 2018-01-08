@@ -2,7 +2,7 @@
 export MAVEN_OPTS="-Xmx6G -Dlog4j.configuration=file:data/fox/log4j.properties"
 
 #ARGS="-len -atrain -iinput/4"
-ARGS="-len -atrain -iinput/Wikiner/aij-wikiner-en-wp3.bz2"
+ARGS="-len -atrain -iinput/Wikiner/aij-wikiner-pt-wp3.bz2"
 
 
 nohup mvn exec:java -Dexec.mainClass="org.aksw.fox.ui.FoxCLI" -Dexec.args="$ARGS" > logLearn.log &

@@ -1,4 +1,4 @@
-package org.aksw.fox.tools.ner.it;
+package org.aksw.fox.tools.ner.pt;
 
 import java.io.IOException;
 import java.util.Locale;
@@ -8,7 +8,7 @@ import org.aksw.fox.utils.FoxConst;
 
 public class SpotlightPT extends SpotlightCommon {
     public SpotlightPT() {
-        super(Locale("pt", "PT");
+        super(new Locale("pt", "PT"));
     }
 
     public static void main(final String[] a) throws IOException {

@@ -75,5 +75,5 @@ public class FoxConst {
 
     public static String NER_PT_EXAMPLE_1 =
             "A Residência de Würzburgo,[1] de Wurtzburgo ou de Vurzburgo (em alemão Würzburger Residenz) é um palácio da Alemanha localizado em Wurtzburgo (Würzburg), uma cidade situada na região administrativa da Baixa Francónia, estado da Baviera. Foi mandada construir pelo príncipe-bispo de Würzburg, Johann Philipp Franz von Schönborn, e pelo seu irmão Friedrich Carl von Schönborn, entre 1720 e 1744.\n"
-                    + "Foi desenhada por vários dos principais arquitectos do barroco. Lucas von Hildebrandt e Maximilian von Welsch, representantes de proa do barroco da Áustria/Sul da Alemanha, estiveram envolvidos na sua construção, assim como Robert de Cotte e Germain Boffrand, proeminentes arquitectos do estilo francês. Balthasar Neumann, arquitecto da corte do bispo de Würzburg, foi o principal arquitecto da residência."
+                    + "Foi desenhada por vários dos principais arquitectos do barroco. Lucas von Hildebrandt e Maximilian von Welsch, representantes de proa do barroco da Áustria/Sul da Alemanha, estiveram envolvidos na sua construção, assim como Robert de Cotte e Germain Boffrand, proeminentes arquitectos do estilo francês. Balthasar Neumann, arquitecto da corte do bispo de Würzburg, foi o principal arquitecto da residência.";
 }

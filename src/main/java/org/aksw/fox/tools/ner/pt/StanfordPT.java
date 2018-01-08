@@ -1,4 +1,4 @@
-package org.aksw.fox.tools.ner.en;
+package org.aksw.fox.tools.ner.pt;
 
 import java.util.Properties;
 
