@@ -7,7 +7,7 @@
         <spotter>Default</spotter>
         <disambiguator>Default</disambiguator>
         <policy>whitelist</policy>
-        <types>  </types>
-        <sparql>  </sparql>
+        <types/>
+        <sparql/>
     </spotlight>
 </config>

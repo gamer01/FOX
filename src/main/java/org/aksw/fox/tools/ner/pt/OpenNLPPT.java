@@ -5,7 +5,7 @@ import org.aksw.fox.utils.FoxConst;
 
 public class OpenNLPPT extends OpenNLPCommon {
 
-    static final String[] modelPath = {"pt-ner-sigarra-iterations_170-cutoff_4.bin"};
+    static final String[] modelPath = {"data/openNLP/pt-ner.bin"};
 
     public OpenNLPPT() {
         super(modelPath);

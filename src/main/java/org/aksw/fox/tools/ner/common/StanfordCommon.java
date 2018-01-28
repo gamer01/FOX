@@ -21,6 +21,7 @@ public abstract class StanfordCommon extends AbstractNER {
     protected StanfordCoreNLP pipeline = null;
 
     public StanfordCommon(final Properties props) {
+        // refer to https://stanfordnlp.github.io/CoreNLP/annotators.html to see which Properties can be used
         pipeline = new StanfordCoreNLP(props);
     }
 
@@ -34,9 +35,9 @@ public abstract class StanfordCommon extends AbstractNER {
         final List<Entity> list = new ArrayList<>();
 
         for (final CoreMap sentence : ann.get(SentencesAnnotation.class)) {
-            String tokensentence = "";
+            StringBuilder tokensentence = new StringBuilder();
             for (final CoreLabel token : sentence.get(TokensAnnotation.class)) {
-                tokensentence += token.word() + " ";
+                tokensentence.append(token.word()).append(" ");
                 final String type = mapTypeToSupportedType(token.get(NamedEntityTagAnnotation.class));
                 final String currentToken = token.originalText();
                 // check for multiword entities
@@ -45,13 +46,13 @@ public abstract class StanfordCommon extends AbstractNER {
                 Entity lastEntity = null;
                 if (!list.isEmpty()) {
                     lastEntity = list.get(list.size() - 1);
-                    contains = tokensentence.contains(lastEntity.getText() + " " + currentToken + " ");
+                    contains = tokensentence.toString().contains(lastEntity.getText() + " " + currentToken + " ");
                     equalTypes = type.equals(lastEntity.getType());
                 }
                 if (contains && equalTypes) {
                     lastEntity.addText(currentToken);
                 } else {
-                    if (type != EntityClassMap.getNullCategory()) {
+                    if (!type.equals(EntityClassMap.getNullCategory())) {
                         final float p = Entity.DEFAULT_RELEVANCE;
                         list.add(getEntity(currentToken, type, p, getToolName()));
                     }

@@ -2,7 +2,7 @@
 <config>
     <toolsGenerator>
         <lang>de, en, es, fr, it, nl, pt</lang>
-        <usedLang>pt</usedLang>
+        <usedLang>en</usedLang>
         <disambiguationTool
                 de="org.aksw.fox.tools.linking.de.AgdistisDirectDE"
                 en="org.aksw.fox.tools.linking.en.AgdistisDirectEN"
@@ -11,7 +11,7 @@
                 it="org.aksw.fox.tools.linking.it.AgdistisDirectIT"
                 nl="org.aksw.fox.tools.linking.nl.AgdistisDirectNL"
                 pt="org.aksw.fox.tools.linking.pt.AgdistisDirectPT"
-        ></disambiguationTool>
+        />
 
         <nerTools
                 de="
@@ -52,18 +52,16 @@
             "
 
                 pt="
-            org.aksw.fox.tools.ner.pt.OpenNLPPT,
-            org.aksw.fox.tools.ner.pt.StanfordPT,
             org.aksw.fox.tools.ner.pt.SpotlightPT
             "
-        ></nerTools>
+        />
         <lightTool
                 de="org.aksw.fox.tools.ner.de.StanfordDE"
                 en="org.aksw.fox.tools.ner.en.StanfordEN"
                 es="org.aksw.fox.tools.ner.es.StanfordES"
                 fr="org.aksw.fox.tools.ner.fr.OpenNLPFR"
                 it="org.aksw.fox.tools.ner.it.TagMeIT"
-                nl="org.aksw.fox.tools.ner.nl.OpenNLPNL"
-        ></lightTool>
+                pt="org.aksw.fox.tools.ner.pt.SpotlightPT"
+        />
     </toolsGenerator>
 </config>

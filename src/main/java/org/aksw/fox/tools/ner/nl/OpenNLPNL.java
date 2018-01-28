@@ -5,7 +5,7 @@ import org.aksw.fox.utils.FoxConst;
 
 public class OpenNLPNL extends OpenNLPCommon {
 
-  static final String[] modelPath = {"data/openNLP/nl-ner-person.bin",
+  private static final String[] modelPath = {"data/openNLP/nl-ner-person.bin",
       "data/openNLP/nl-ner-location.bin", "data/openNLP/nl-ner-organization.bin"};
 
   public OpenNLPNL() {

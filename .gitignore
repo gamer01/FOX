@@ -6,6 +6,7 @@
 .project
 .svn
 .idea/
+*.iml
 
 /log
 /demo/doc
@@ -28,3 +29,4 @@
 /docker/en/spotlight/*
 /out/*
 /agdistis/*
+/spotlight/*

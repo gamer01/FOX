@@ -15,10 +15,9 @@ public class StanfordPT extends StanfordCommon {
 
     static {
         props.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner");
-        props.setProperty("tokenize.language", "pt");
         props.setProperty("ner.applyNumericClassifiers", "false");
         props.setProperty("ner.useSUTime", "false");
-        props.setProperty("ner.model", "data/stanford-corenlp/pt-ner-model-tolerance_1e-3.ser.gz");
+        props.setProperty("ner.model", "/home/gamer01/uni/11. Semester/Foundation of Knowledge Graphs/Fox/FOX/data/stanford-corenlp/pt-ner-model-tolerance_1e-3.ser.gz");
     }
 
     public StanfordPT() {

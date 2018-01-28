@@ -10,7 +10,7 @@ if [ ! -d "$DIRECTORY" ]; then
 	wget http://downloads.dbpedia-spotlight.org/spotlight/dbpedia-spotlight-0.7.1.jar
 	# wget http://spotlight.sztaki.hu/downloads/dbpedia-spotlight-latest.jar 
 
-    langs=(de,DE en_2+2,EN es,ES fr,FR nl,NL pt,PT)
+    langs=(de,DE en,EN es,ES fr,FR nl,NL pt,PT)
 
     # executed in parallel
 	for ln in ${langs[@]}
