@@ -22,10 +22,9 @@ public class StanfordPT extends StanfordCommon {
 
     public StanfordPT() {
         super(props);
-        entityClasses.put("ORGANIZATION", EntityClassMap.O);
-        entityClasses.put("LOCATION", EntityClassMap.L);
-        entityClasses.put("PERSON", EntityClassMap.P);
-        entityClasses.put("PEOPLE", EntityClassMap.P);
+        entityClasses.put("Organizacao", EntityClassMap.O);
+        entityClasses.put("Localizacao", EntityClassMap.L);
+        entityClasses.put("Pessoa", EntityClassMap.P);
         entityClasses.put("O", EntityClassMap.N);
     }
 
