@@ -12,8 +12,10 @@ import org.aksw.fox.tools.ner.common.OpenNLPCommon;
 import org.aksw.fox.utils.FoxCfg;
 import org.aksw.fox.utils.FoxConst;
 import org.aksw.fox.utils.FoxTextUtil;
-import org.vicomtech.opennlp.tools.namefind.NameFinderME;
-import org.vicomtech.opennlp.tools.namefind.TokenNameFinderModel;
+import opennlp.tools.namefind.NameFinderME;
+import opennlp.tools.namefind.TokenNameFinderModel;
+//import org.vicomtech.opennlp.tools.namefind.NameFinderME;
+//import org.vicomtech.opennlp.tools.namefind.TokenNameFinderModel;
 
 import opennlp.tools.util.Span;
 
