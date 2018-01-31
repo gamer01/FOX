@@ -2,7 +2,7 @@
 <config>
     <toolsGenerator>
         <lang>de, en, es, fr, it, nl, pt</lang>
-        <usedLang>en</usedLang>
+        <usedLang>pt</usedLang>
         <disambiguationTool
                 de="org.aksw.fox.tools.linking.de.AgdistisDirectDE"
                 en="org.aksw.fox.tools.linking.en.AgdistisDirectEN"
@@ -52,6 +52,8 @@
             "
 
                 pt="
+            org.aksw.fox.tools.ner.pt.OpenNLPPT,
+            org.aksw.fox.tools.ner.pt.StanfordPT,
             org.aksw.fox.tools.ner.pt.SpotlightPT
             "
         />
@@ -61,7 +63,7 @@
                 es="org.aksw.fox.tools.ner.es.StanfordES"
                 fr="org.aksw.fox.tools.ner.fr.OpenNLPFR"
                 it="org.aksw.fox.tools.ner.it.TagMeIT"
-                pt="org.aksw.fox.tools.ner.pt.SpotlightPT"
+                pt="org.aksw.fox.tools.ner.pt.StanfordPT"
         />
     </toolsGenerator>
 </config>
